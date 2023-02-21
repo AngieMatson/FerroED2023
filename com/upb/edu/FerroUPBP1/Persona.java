@@ -1,3 +1,5 @@
+package com.upb.edu.FerroUPBP1;
+
 public abstract class Persona {
     public String nombre;
     public String apellido;

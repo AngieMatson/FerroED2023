@@ -1,4 +1,6 @@
-public class Cliente  extends  Persona{
+package com.upb.edu.FerroUPBP1;
+
+public class Cliente  extends Persona {
     float peso = 0;
     public Cliente(String nombre, String apellido, int id, String direccion, int telefono, float peso) {
         super(nombre, apellido, id, direccion, telefono);
