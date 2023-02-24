@@ -1,4 +1,4 @@
-package com.upb.edu.FerroUPBP1;
+package com.upb.edu.FerroUPBP1.Model.Tiquete;
 
 import com.upb.edu.FerroUPBP1.Model.Persona.Cliente;
 public class Tiquete{
