@@ -1,4 +1,4 @@
-package com.upb.edu.FerroUPBP1;
+package com.upb.edu.FerroUPBP1.Model.Persona;
 
 public abstract class Persona {
     public String nombre;

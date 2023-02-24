@@ -1,4 +1,4 @@
-package com.upb.edu.FerroUPBP1;
+package com.upb.edu.FerroUPBP1.Model.Persona;
 
 public class Cliente  extends Persona {
     float peso = 0;
