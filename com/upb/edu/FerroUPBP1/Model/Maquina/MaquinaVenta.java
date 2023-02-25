@@ -12,11 +12,13 @@ public class MaquinaVenta extends Tiquete{
 
     }
 
-    public boolean venta(boolean chequeoTiquete){
+    public boolean venta(boolean chequeoTiquete, float peso){
         if (chequeoTiquete == true){
             return true;
         } else {
             return false;
+        } if (Cliente.pesomax(peso)){
+
         }
     }
 
