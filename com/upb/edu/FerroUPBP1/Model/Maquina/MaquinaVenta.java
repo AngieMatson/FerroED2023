@@ -18,7 +18,6 @@ public class MaquinaVenta extends Tiquete{
         int telefono = Integer.parseInt(JOptionPane.showInputDialog(null,"Escribir el teléfono"));
         int peso = Integer.parseInt(JOptionPane.showInputDialog(null,"Escribir cantidad de peso a llevar"));
 
-
     }
     public boolean venta(boolean chequeoTiquete, float peso){
         if (chequeoTiquete == true){
