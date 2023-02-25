@@ -25,6 +25,7 @@ public class MaquinaVenta extends Tiquete{
         } else {
             return false;
         }
+
     }
 
 }
