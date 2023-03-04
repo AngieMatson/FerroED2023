@@ -3,7 +3,6 @@ package com.upb.edu.FerroUPBP1.Lista;
 import java.util.Iterator;
 
 /**
- * @author Lenin Javier Serrano Gil
  * @param <T> generic objects
  */
 public interface List<T> {
