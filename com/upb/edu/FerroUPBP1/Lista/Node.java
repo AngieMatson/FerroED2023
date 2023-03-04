@@ -1,7 +1,6 @@
 package com.upb.edu.FerroUPBP1.Lista;
 
 /**
- * @author Lenin Javier Serrano Gil
  * @param <T> generic objects
  */
 public interface Node<T> {
