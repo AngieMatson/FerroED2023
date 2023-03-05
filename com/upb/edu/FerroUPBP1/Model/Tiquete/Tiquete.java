@@ -35,6 +35,7 @@ public class Tiquete{
                chequeoTiquete = true;
                break;
            default:
+               chequeoTiquete = false;
                throw new IllegalStateException("Escriba bien");
        }
     }
