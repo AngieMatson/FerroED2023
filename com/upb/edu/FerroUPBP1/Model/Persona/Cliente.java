@@ -13,14 +13,6 @@ public class Cliente  extends Persona {
         this.peso = peso;
     }
     public boolean pesomax(){
-        if(peso <= 150){
-            System.out.println("Peso Válido por persona");
-            return true;
-            }
-        else{
-            System.out.println("Peso No Válido, no puede ingresar");
-            return false;
-        }
-
+        return peso <= 150;
     }
 }
