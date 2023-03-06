@@ -4,6 +4,8 @@ import com.upb.edu.FerroUPBP1.Model.Persona.Cliente;
 
 
 public class Tiquete{
+    private static int contadorTiquetes = 1;
+    private int numeroTiquete;
     public static int precioVenta;
     public String tipoTiquete;
     public boolean chequeoTiquete;
@@ -13,6 +15,7 @@ public class Tiquete{
     public static final int precio = precioVenta;
 
     public Tiquete(int precioVenta, String tipoTiquete, boolean chequeoTiquete, Cliente cliente, String ruta, String horarioSalida) {
+        this.numeroTiquete = contadorTiquetes++;
         this.precioVenta = precioVenta;
         this.tipoTiquete = tipoTiquete;
         this.chequeoTiquete = chequeoTiquete;
@@ -43,6 +46,9 @@ public class Tiquete{
 
     public void setHorarioSalida(String horarioSalida) {
         this.horarioSalida = horarioSalida;
+    }
+    public int getNumeroTiquete() {
+        return this.numeroTiquete;
     }
 
     public static void tipoTiquete(String tipoTiquete, int precioVenta, boolean chequeoTiquete){
