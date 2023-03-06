@@ -26,7 +26,7 @@ public interface Node<T> {
     public boolean isEquals(T object);
 
     /***
-     * Retorna toda la información del nodo como una cadena.
+     * Retorna toda la información del nodo como una cadena
      * @return String node
      */
     public String toString();
