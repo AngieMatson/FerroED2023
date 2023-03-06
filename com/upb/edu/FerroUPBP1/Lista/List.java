@@ -248,8 +248,6 @@ public interface List<T> {
      */
     public Iterator<Node> iterator();
 
-    /***
-     * TODO DO *
-     */
+
 
 }
